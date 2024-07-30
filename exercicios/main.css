@@ -1,0 +1,33 @@
+.conteudo{
+    display: flex;
+}
+.autores{
+    border: 1px solid black;
+    width: 25%;
+}
+.autores div img {
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.autores div{
+    border: 1px solid white;
+    float: right;
+    width: 60%;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.info-destino{
+    width: 100%;
+
+}
+.info-destino div{
+    width: 80%;
+    border: 1px solid black;
+
+}
+.info-destino div p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+}
