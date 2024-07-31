@@ -115,6 +115,7 @@ ul li:hover{
 }
 section{
     /*texto */
+    display: flex;
     color: #333;
     margin: 0 auto 20px;
     font-weight: 400;
@@ -126,6 +127,26 @@ section{
     justify-content: center;
     margin-left: 300px;
     margin-right: 300px;
+}
+..autores{
+    border: 1px solid black;
+    width: 25%;
+    text-align: justify;
+    
+}
+.autores div img {
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.autores div{
+    border: 1px solid white;
+    float: right;
+    width: 60%;
+    font-size: 12px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
 }
 .imagem-dimensionada{
     width: 930px;
