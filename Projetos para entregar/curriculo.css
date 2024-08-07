@@ -1,0 +1,48 @@
+body{
+    display: grid; /* para dividir o body */
+    grid-template-columns: 1fr 1fr; /* quantidade de divisões para os elementos */
+    margin: 0 auto; /* para deixar o body sem margem e colar os elementos */
+}
+
+
+#column1{   /* primeira coluna (roxa) */
+    background-color: rgb(63, 8, 63);   /* cor de fundo da coluna */
+    padding: 20px;   /* tamanho de preenchimento interno */
+    height: 100vh;   /* para a div ocupar a tela inteira */
+    color: white;   /* cor do texto desta coluna */
+    font-family: Arial, Helvetica, sans-serif;  /* define Arial como fonte*/
+}
+
+
+.lattes{
+    display: flex;
+    
+    font-size: 12px;
+    color: rgb(148, 148, 148);
+    margin: 2px;
+}
+
+
+#column2{   /* segunda coluna (branca) */
+    padding: 20px;   /* tamanho de preenchimento interno */
+    height: 100vh;  /* para a div ocupar a tela inteira */
+    font-family: Arial, Helvetica, sans-serif;      /* define Arial como fonte */
+}
+
+
+.subtitle1{
+    background-color: rgb(43, 5, 43); /* sombreamento do subtitulo */
+    padding: 5px;
+   
+}
+
+
+.subtitle2{
+    background-color: rgb(204, 203, 203); /* sombreamento do subtitulo */
+
+
+}
+p{
+color: black;
+font-family: arial;
+}
