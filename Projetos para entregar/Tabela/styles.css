@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    
+}
+
+
+.dia, .hora{
+    background-color: rgba(21,21,153,255);
+    color: #ddd;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    padding: 2px;
+    
+    color: #ddd;
+}
+
+.frist{
+    background-color: rgba(46,47,227,255);
+}
+.sleep{ 
+    background-color: rgba(138,138,239,255);
+    color: #ddd;
+    align-items: center;
+    vertical-align: middle;
+    
+    
+}
+.bio{
+    background-color: rgba(84,130,53,255);
+}
+.manut{
+    background-color: #3a3838;
+    color: #ddd;
+}
+.mat{
+    background-color: #c65911;
+}
+.redes{
+    background-color: #7030a0;
+    color: #ddd ;
+}
+.filo{
+    background-color: #fddff7;
+}
