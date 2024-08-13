@@ -9,90 +9,114 @@ table {
     border-collapse: collapse;
     width: 100%;
 }
-th, td {
+
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: center;
-    
+
 }
-.head{
+
+header {
     text-align: center;
 }
 
-.dia, .hora{
-    background-color: rgba(21,21,153,255);
+.dia,
+.hora {
+    background-color: rgba(21, 21, 153, 255);
     color: #ddd;
     font-weight: bold;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding: 2px;
-    
+
     color: #ddd;
 }
 
-.frist{
-    background-color: rgba(46,47,227,255);
+.frist {
+    background-color: rgba(46, 47, 227, 255);
 }
-.sleep{ 
-    background-color: rgba(138,138,239,255);
+
+.sleep {
+    background-color: rgba(138, 138, 239, 255);
     color: #ddd;
     align-items: center;
     vertical-align: middle;
-    
-    
+
+
 }
-.ingles{
+
+.ingles {
     background-color: #b3c6e0;
 }
-.mat{
+
+.mat {
     background-color: #e9b149;
 }
-.bg{
+
+.bg {
     background-color: #ffb3b3;
 }
-.fut{
+
+.fut {
     background-color: #99ccff;
 }
-.cof{
+
+.cof {
     background-color: #ffffcc;
 }
-.inter{
-    background-color: #d9e6f2   ;
+
+.inter {
+    background-color: #d9e6f2;
 }
-.port{
+
+.port {
     background-color: #ff9966;
 }
-.wen{
+
+.web {
     background-color: #cc99ff;
 }
-.logic{
+
+.logic {
     background-color: #6699cc;
 }
-.napne{
+
+.napne {
     background-color: #66cc99;
 }
-.so{
+
+.so {
     background-color: #ff9999;
 }
-.desc{
+
+.desc {
     background-color: #f2f2f2;
 }
-.rv{
+
+.rv {
     background-color: #ffcc66;
 }
-.org-judo{
+
+.org-judo {
     background-color: #99ccff;
 }
-.judo{
+
+.judo {
     background-color: #99ccff;
 }
-.ir{
+
+.ir {
     background-color: #66b2b2;
 }
-.bolsa{
+
+.bolsa {
     background-color: #66cccc;
 }
-.jant{
+
+.jant {
     background-color: rgb(217, 89, 89);
 }
