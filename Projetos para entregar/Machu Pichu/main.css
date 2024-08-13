@@ -33,7 +33,7 @@ div {
 
 
 .secao1 {
-background-image: url(machu-picchu-61-c.pnj.jpg);
+background-image:url(machu-picchu-banner-c.jpg);
 width: 1528px;
 height: 500px;
 background-repeat: no-repeat;
@@ -240,4 +240,11 @@ background-size: cover;
      'Helvetica Neue', sans-serif;
      line-height: 1.7em;
      text-align: center;
+}
+.post{
+    background-color: #F3FBEE;
+    border-radius: 12px;
+    border: 2px dashed #D6F1C5;
+    margin: 50px 0;
+    
 }
