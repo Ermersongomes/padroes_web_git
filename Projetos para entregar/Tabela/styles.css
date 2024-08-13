@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #f4f4f9;
 }
 
 
@@ -14,7 +15,9 @@ th, td {
     text-align: center;
     
 }
-
+.head{
+    text-align: center;
+}
 
 .dia, .hora{
     background-color: rgba(21,21,153,255);
@@ -39,20 +42,57 @@ ul{
     
     
 }
-.bio{
-    background-color: rgba(84,130,53,255);
-}
-.manut{
-    background-color: #3a3838;
-    color: #ddd;
+.ingles{
+    background-color: #b3c6e0;
 }
 .mat{
-    background-color: #c65911;
+    background-color: #e9b149;
 }
-.redes{
-    background-color: #7030a0;
-    color: #ddd ;
+.bg{
+    background-color: #ffb3b3;
 }
-.filo{
-    background-color: #fddff7;
+.fut{
+    background-color: #99ccff;
+}
+.cof{
+    background-color: #ffffcc;
+}
+.inter{
+    background-color: #d9e6f2   ;
+}
+.port{
+    background-color: #ff9966;
+}
+.wen{
+    background-color: #cc99ff;
+}
+.logic{
+    background-color: #6699cc;
+}
+.napne{
+    background-color: #66cc99;
+}
+.so{
+    background-color: #ff9999;
+}
+.desc{
+    background-color: #f2f2f2;
+}
+.rv{
+    background-color: #ffcc66;
+}
+.org-judo{
+    background-color: #99ccff;
+}
+.judo{
+    background-color: #99ccff;
+}
+.ir{
+    background-color: #66b2b2;
+}
+.bolsa{
+    background-color: #66cccc;
+}
+.jant{
+    background-color: rgb(217, 89, 89);
 }
