@@ -1,0 +1,36 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    /*para visualizar o que está acontecendo*/
+    border: 1px solid black;
+    padding: 5px;
+}
+.div-global{
+    width: 100%;
+}
+.div-secao1{
+    background-color: darkblue;   
+}
+.div-dois-quadros{
+    display: flex;
+    justify-content: center;
+
+}
+/*acessando a div dois quadros*/
+.div-dois-quadros > div{
+    width: 350px;
+    height: 200px;
+}
+.div-dois-quadros > div:hover{
+    background-color: white;
+    box-shadow: 0px 0px 10px ;
+}
+.div-tres-quadros{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
