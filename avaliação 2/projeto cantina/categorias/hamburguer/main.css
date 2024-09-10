@@ -1,11 +1,13 @@
-body,ul,li,
+body,
+ul,
+li,
 p {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    color: #f7f7f7;
+    color: white;
 
 }
 
@@ -19,7 +21,7 @@ a {
 
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,10 +30,12 @@ footer{
     border-radius: 2px;
     background-color: #F20505;
 }
-.creditos{
+
+.creditos {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f7f7f7;
 }
+
 .header {
     position: fixed;
     width: 100vw;
@@ -60,7 +64,7 @@ footer{
 .menu-nav {
     display: flex;
     margin-right: 40px;
-    
+
 }
 
 .menu-nav li {
@@ -81,7 +85,7 @@ footer{
     border: 1px solid black;
     width: 100vw;
     height: 230px;
-    
+
 }
 
 .titulo-categoria {
@@ -121,69 +125,81 @@ footer{
 .discrição-categoria {
     padding-top: 15px;
 }
-.lista-itens{
+
+.lista-itens {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
     height: 1000px;
     width: 1000px;
-    border: 1px solid black;
+    border-radius: 15px;
     margin: 20px auto;
-    background-color: #dfdfdfd4;
+    background-color: #eaeaea;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.itens{
+
+.itens {
     height: 50px;
     width: 50px;
     margin: auto;
     border: 1px solid black;
 }
-.itens-foto{
-    border: 1px solid black;
+
+.itens-foto {
     height: 150px;
     width: 170px;
     margin: auto;
-    color: black; /*cor da fonte*/
+    color: black;
+    background-color: #f8f8f8;
+    /*cor da fonte*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.itens-img{
+
+.itens-img {
     height: 150px;
     width: 170px;
     border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
-.itens-info{
+
+.itens-info {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 150px;
     width: 50;
-    color: black; /*cor da fonte*/
-     border-radius: 15px;
-    border: 1px solid black;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.itens-info > p{
+
+.itens-info>p {
     color: black;
     text-align: justify;
     padding: 0 10px 0 10px;
     font-size: 15px;
-    
+
 }
-.itens-preco{
+
+.itens-preco {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    border: 1px solid black;
-    height: 55px;
+    border-radius: 25px;
+    height: 45px;
     width: 120px;
     margin: auto;
-    background-color: #14c222  ;
-    color: black; /*cor da fonte*/
-    
+    background-color: #14c222;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    /*cor da fonte*/
+
 }
-.preco-cor{
+
+.preco-cor {
     color: aliceblue;
 }

@@ -1,4 +1,6 @@
-body,ul,li,
+body,
+ul,
+li,
 p {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ a {
 
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,11 +29,13 @@ footer{
     border-radius: 2px;
     background-color: #F20505;
 }
-.creditos{
+
+.creditos {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f7f7f7;
-    
+
 }
+
 .header {
     position: fixed;
     width: 100vw;
@@ -45,7 +49,7 @@ footer{
 }
 
 .logo {
-    
+
     display: flex;
     align-items: center;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -60,7 +64,7 @@ footer{
 .menu-nav {
     display: flex;
     margin-right: 40px;
-    
+
 }
 
 .menu-nav li {
@@ -84,20 +88,20 @@ footer{
     padding-top: 50px;
     width: 100vw;
     height: 300px;
-    
+
 }
 
 .titulo-categoria {
     display: flex;
     align-items: center;
-    
+
 }
 
 .svg {
     align-items: center;
     width: 50px;
     height: 50px;
-    
+
 }
 
 .discrição {
@@ -108,7 +112,7 @@ footer{
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    
+
 }
 
 .disc {
@@ -118,16 +122,21 @@ footer{
     justify-content: center;
     width: 130px;
     height: 120px;
-    background-color: #f76323; /* Cor original do fundo */
-    border-radius: 12px; /* Bordas arredondadas */
+    background-color: #f76323;
+    /* Cor original do fundo */
+    border-radius: 12px;
+    /* Bordas arredondadas */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Transição suave */
 }
 
 .disc:hover {
-    background-color: rgb(233, 189, 14); /* Cor ao passar o mouse */
-    transform: scale(1.1); /* Efeito de zoom */
+    background-color: rgb(233, 189, 14);
+    /* Cor ao passar o mouse */
+    transform: scale(1.1);
+    /* Efeito de zoom */
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
@@ -144,8 +153,9 @@ footer{
     border: 2px solid black;
     margin: auto;
 }
-.sobre-nos-2{
-    
+
+.sobre-nos-2 {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,7 +177,8 @@ footer{
     background-color: #eaeaea;
 
 }
-.sb-txt-2{
+
+.sb-txt-2 {
     /*concerta depois*/
     display: flex;
     flex-direction: column;
@@ -183,31 +194,29 @@ footer{
     margin-right: -100px;
     margin-left: 125px;
 
-    
-    
-   
     background-color: #eaeaea;
 }
-.sb-txt>p{
-    
+
+.sb-txt>p {
+
     text-align: justify;
-   margin: 0 10px 0 10px;
-    
+    margin: 0 10px 0 10px;
 
 }
-.sb-txt-2>p{
-    
+
+.sb-txt-2>p {
+
     text-align: justify;
-     margin: 0 10px 0 10px;
-     padding-top: 20px;
-    
+    margin: 0 10px 0 10px;
+    padding-top: 20px;
+
 
 }
 
 .sb-img {
     width: 400px;
     height: 350px;
-    
+
     border-radius: 2px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -216,7 +225,7 @@ footer{
 .mapa {
     width: 150px;
     height: 150px;
-   
+
 
     border: 1px solid black;
 }
@@ -237,7 +246,8 @@ footer{
     background-color: white;
     border-radius: 10px;
     width: 100vw;
-    height: 500px; /* Garantindo que a seção ocupe a altura total da janela */
+    height: 500px;
+    /* Garantindo que a seção ocupe a altura total da janela */
 }
 
 .mapa {
