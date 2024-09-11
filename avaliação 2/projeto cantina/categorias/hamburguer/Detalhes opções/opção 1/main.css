@@ -1,25 +1,29 @@
-body,ul,li,
-p {
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body,ul,li,p {
     margin: 0;
     padding: 0;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    color: #f7f7f7;
 
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Anton&display=swap');
+
 body {
-    background-color: #f7f7f7;
+    background-color: white;
 }
 
 a {
     text-decoration: none;
+    font-family: "Anton", sans-serif;
     color: aliceblue;
 
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,24 +32,39 @@ footer{
     border-radius: 2px;
     background-color: #F20505;
 }
+
+path{
+    fill: #eaeaea;
+}
+
+.creditos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f7f7f7;
+
+}
+
 .header {
     position: fixed;
+    z-index: 999;
     width: 100vw;
-    height: 30px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin-top: 1px;
     background-color: #F20505;
-    border-radius: 2px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    
 }
 
+
+
 .logo {
-    border: 1px solid black;
+
     display: flex;
     align-items: center;
+    
+
 }
 
 .rubber-duck {
@@ -56,7 +75,7 @@ footer{
 .menu-nav {
     display: flex;
     margin-right: 40px;
-    
+
 }
 
 .menu-nav li {
@@ -67,53 +86,85 @@ footer{
     padding: 10px;
     border-radius: 12px;
     background-color: #ee7331;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
-.lista-itens{
-    padding-top: 120px;
+
+.lista-itens {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
     height: 1000px;
     width: 1000px;
-    border: 1px solid black;
-    margin: auto;
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: #eaeaea;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.itens{
+
+.itens {
     height: 50px;
     width: 50px;
     margin: auto;
     border: 1px solid black;
 }
-.itens-foto{
-    border: 1px solid black;
+
+.itens-foto {
     height: 150px;
     width: 170px;
     margin: auto;
-    color: black; /*cor da fonte*/
+    color: black;
+    background-color: #f8f8f8;
+    /*cor da fonte*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.itens-info{
+
+.itens-img {
+    height: 150px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.itens-info {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: black;
+    text-align: justify;    
+    padding: 0 25px 0 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
     height: 150px;
     width: 50;
-    color: black; /*cor da fonte*/
-
-    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.itens-preco{
+
+
+
+.itens-preco {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    border: 1px solid black;
-    height: 55px;
+    border-radius: 25px;
+    height: 45px;
     width: 120px;
     margin: auto;
-    color: black; /*cor da fonte*/
-    
+    background-color: #14c222;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: "Anton", sans-serif;
+    color: #eaeaea;
+    /*cor da fonte*/
+
+}
+
+.preco-cor {
+    color: aliceblue;
 }

@@ -38,13 +38,26 @@ path{
 }
 
 .creditos {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Anton", sans-serif;
     color: #f7f7f7;
+    padding-left: 10px;
+
+
+}
+.pato-duck{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+
 
 }
 
 .header {
     position: fixed;
+    z-index: 999;
     width: 100vw;
     height: 70px;
     display: flex;
@@ -153,7 +166,7 @@ path{
     align-items: center;
 }
 .disc:hover {
-    background-color: rgb(233, 189, 14);
+    background-color: #f2b84bc9;
     /* Cor ao passar o mouse */
     transform: scale(1.1);
     /* Efeito de zoom */
