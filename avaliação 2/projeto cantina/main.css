@@ -98,9 +98,17 @@ path{
     padding: 10px;
     border-radius: 12px;
     background-color: #ee7331;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
+.menu-nav li a:hover {
+    background-color: #ff914d; /* Cor mais clara para o hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+
+
+}
+
 
 .container {
     display: flex;
