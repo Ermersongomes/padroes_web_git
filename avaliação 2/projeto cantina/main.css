@@ -1,7 +1,6 @@
-body,
-ul,
-li,
-p {
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body,ul,li,p {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -10,12 +9,16 @@ p {
 
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Anton&display=swap');
+
 body {
     background-color: white;
 }
 
 a {
     text-decoration: none;
+    font-family: "Anton", sans-serif;
     color: aliceblue;
 
 }
@@ -50,13 +53,16 @@ path{
     background-color: #F20505;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
+    
 }
+
+
 
 .logo {
 
     display: flex;
     align-items: center;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 
 }
 
@@ -99,6 +105,10 @@ path{
     display: flex;
     align-items: center;
     margin-top: 40px;
+    font-family: "Anton", sans-serif;
+    font-size: 20px;
+    color:#ee7331;
+
 
 }
 
@@ -154,6 +164,8 @@ path{
 
 .discrição-categoria {
     padding-top: 15px;
+    font-family: "Anton", sans-serif;
+    font-size: 16px;
 }
 
 .sobre-nos {
@@ -161,6 +173,8 @@ path{
     justify-content: center;
     align-items: center;
     margin: auto;
+    font-family: "Anton", sans-serif;
+    
 }
 
 .sobre-nos-2 {
