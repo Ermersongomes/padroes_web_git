@@ -220,6 +220,7 @@ path{
 
 .itens-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: black;
@@ -227,13 +228,19 @@ path{
     padding: 0 25px 0 25px;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    height: 150px;
+    
+    height: 160px;
     width: 50;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.intens-titulo{
+    padding-bottom: 10px;
+    display: flex;
+    font-family: "Anton", sans-serif;
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 18px;
+}
 
 
 .itens-preco {
