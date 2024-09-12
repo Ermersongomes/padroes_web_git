@@ -43,6 +43,7 @@ path{
 
 .header {
     position: fixed;
+    z-index: 999;
     width: 100vw;
     height: 70px;
     display: flex;
@@ -84,6 +85,12 @@ path{
     border-radius: 12px;
     background-color: #ee7331;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.menu-nav li a:hover {
+    background-color: #ff914d; /* Cor mais clara para o hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+
 
 }
 

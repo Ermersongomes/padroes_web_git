@@ -87,6 +87,12 @@ path{
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
+.menu-nav li a:hover {
+    background-color: #ff914d; /* Cor mais clara para o hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15), 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra mais intensa no hover */
+
+
+}
 
 .container {
     display: flex;
@@ -214,6 +220,7 @@ path{
 
 .itens-info {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: black;
@@ -226,6 +233,13 @@ path{
     width: 50;
     border-radius: 15px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.intens-titulo{
+    padding-bottom: 20px;
+    display: flex;
+    font-family: "Anton", sans-serif;
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 18px;
 }
 
 
