@@ -274,13 +274,6 @@ path{
     border: 1px solid black;
 }
 
-.endereço {
-    width: 150px;
-    height: 150px;
-    background-color: #ee7331;
-    border: 1px solid black;
-}
-
 .container-localizacao {
     display: flex;
     flex-direction: row;
@@ -309,15 +302,18 @@ path{
 }
 
 .endereco {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     background-color: #eaeaea;
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
     width: 600px;    
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
 
 .endereco p {
-    margin: 0;
+    margin-left: 55px;
+    line-height: 1.6;
 }
