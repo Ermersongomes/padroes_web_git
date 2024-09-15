@@ -120,8 +120,12 @@ body {
     list-style: none;
     gap: 10px;
     width: 550px;
-    margin-left: 170px;
+    margin-left: 200px;
     padding: 0;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
 }
 .opcoes>li{
     background-color: #1775ef;
@@ -138,38 +142,52 @@ body {
 .menu-opcoes {
     display: flex;
     justify-content: center; /* Alinha o conteúdo horizontalmente no centro da tela */
-    
 }
 
 .menu-espaco {
     display: flex;
-    justify-content: space-between; /* Espaça os itens ao máximo, colocando o último item no lado oposto */
-    width: 80%; /* Garante que o container ocupe toda a largura disponível */
+    justify-content: space-between; 
+    align-items: center;
+    height: 50px;
+    width: 100%; 
+    margin: 0;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 0 25px;
+    margin-bottom: 8px;
 }
 
 .container-menu-opcoes {
     display: flex;
-    gap: 10px; /* Espaço entre os itens dentro do container-menu-opcoes */
-}
-.informacao{
-    display: flex;
-    flex-direction: row;
+    gap: 10px;
     align-items: center;
-    gap: 15px;
-    height: 100px;
+    justify-content: center;
+}
+.informacao {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     width: 80%;
     margin: 0 auto;
     padding: 10px;
     border-radius: 15px;
     background-color: #154194;
 }
-.fundo{
+.container-informacao-destino{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+/* Estilos gerais para os itens */
+.fundo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: aliceblue;
     height: 50px;
-    width: 250px;
+    width: 100%; /* Ajusta a largura para 100% da célula */
     border-radius: 20px;
+    margin-top: 0;
 }
+
+/* Primeiro item ocupa toda a primeira linha */
