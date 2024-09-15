@@ -3,10 +3,6 @@ body {
     padding: 0;
     font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
 }
-div {
-    /* Para visualizar o que está acontecendo */
-    border: 1px solid black;
-}
 .head {
     width: 100vw;
     height: 60px;
@@ -112,4 +108,68 @@ div {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px ;
     
+}
+.div-global-branca{
+    margin-top: 50px;
+}
+.opcoes{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    width: 550px;
+    margin-left: 170px;
+    padding: 0;
+}
+.opcoes>li{
+    background-color: #1775ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    height: 50px;
+    width: 100px;
+}
+.opcoes>li:first-child{
+    background-color: #154194;
+}
+.menu-opcoes {
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo horizontalmente no centro da tela */
+    
+}
+
+.menu-espaco {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens ao máximo, colocando o último item no lado oposto */
+    width: 80%; /* Garante que o container ocupe toda a largura disponível */
+}
+
+.container-menu-opcoes {
+    display: flex;
+    gap: 10px; /* Espaço entre os itens dentro do container-menu-opcoes */
+}
+.informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #154194;
+}
+.fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
 }
